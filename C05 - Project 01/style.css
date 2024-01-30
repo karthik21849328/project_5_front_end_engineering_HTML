@@ -1,0 +1,93 @@
+.nav {
+    display:flex;
+    justify-content: space-around;
+    width :60%;
+    margin-left:20%;
+    margin-bottom:3%;
+}
+
+ 
+
+.nav li {
+    list-style-type: none;
+    width:100px;
+    float:left;
+    padding: 10px 0;
+    text-align: center;
+    border-radius:10%;
+    border: 2px solid #6c8ebf;
+    text-decoration: none;
+    background-color: #dae8fc;
+}
+
+.activenav li {
+    background-color: #f8cecc;
+    border:2px solid #b85450;
+    box-shadow: 2px 2px #a89f9e;
+
+}
+
+input[type=button] {
+    width:50px;
+    height:50px;
+    border:2px solid black;
+}
+
+#inputval {
+    width:25%;
+    height:50px;
+    margin-left:30%;
+    margin-top:2%;
+    border:2px solid black;
+    text-align: center;
+}
+
+.nos, .operators {
+    margin: 0.1%;
+}
+
+.col1 {
+    margin-left:30%;
+}
+
+.operators.col1{
+    margin-left:3%;
+}
+
+#ce {
+    margin-left:1%;
+}
+
+#zero {
+    margin-left:33.7%;
+}
+
+form {
+    width:600px;
+    margin-left:28%;
+    justify-content: flex-end;
+}
+
+label {
+    text-align :center;
+    height:40px;
+    width:80px;
+    padding-right:10%;
+    display:inline-flex;
+}
+
+
+input[type=text] {
+    width:60%;
+    height:40px;
+    border:2px solid black;
+    text-align: center;
+}
+
+input[type=submit]{
+    margin-left:40%;
+    margin-top:5%;
+    width:20%;
+    height:40px;
+    border: 2px solid black;
+}
